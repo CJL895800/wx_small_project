@@ -1,0 +1,30 @@
+<view class="top_contain">
+      <view class="des_contain">
+            <view class="name">GJ.</view>
+            <view class="sign">做好手中的事,珍惜眼前的人</view>
+      </view>
+      <view class="avator_box">
+            <image class="avator" src="/images/tou.png"></image>
+      </view>
+</view>
+<view class="contain">
+      <view class="title">程序简介</view>
+      <view class="description">
+            <text space="emsp" decode="{{ true }}">{{des}}</text>
+      </view>
+      <view class="title">联系方式</view>
+      <view class="description">
+            <view class="tip" bindtap="copy" data-copy="https://baidu.com" data-name="链接">
+                  <view>博客网</view>:
+                  <text>暂无</text>
+            </view>
+            <view class="tip" bindtap="copy" data-copy="LTays13" data-name="微信">
+                  <view>Wechat</view>:
+                  <text>LTays13</text>
+            </view>
+            <view class="tip" bindtap="copy" data-copy="895837900" data-name="QQ">
+                  <view>QQ</view>:
+                  <text>3218921864</text>
+            </view>
+      </view>
+</view>

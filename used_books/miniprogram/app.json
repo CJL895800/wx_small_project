@@ -1,0 +1,68 @@
+{
+      "pages": [
+            "pages/start/start",
+            "pages/index/index",
+            "pages/login/login",
+            "pages/publish/publish",
+            "pages/my/my",
+            "pages/detail/detail",
+            "pages/success/success",
+            "pages/order/detail/detail",
+            "pages/order/list/list",
+            "pages/help/help",
+            "pages/kefu/kefu",
+            "pages/about/about",
+            "pages/sell/list/list",
+            "pages/sell/detail/detail",
+            "pages/search/search",
+            "pages/edit/edit",
+            "pages/web/web",
+            "pages/poster/poster",
+            "pages/parse/parse",
+            "pages/recharge/recharge",
+            "pages/reflect/reflect"
+            
+      ],
+      "window": {
+            "backgroundColor": "#0000",
+            "backgroundTextStyle": "light",
+            "navigationBarBackgroundColor": "#3498db",
+            "navigationBarTitleText": "培正舟海二手书",
+            "navigationBarTextStyle": "white"
+      },
+      "sitemapLocation": "sitemap.json",
+      "tabBar": {
+            "color": "#707070",
+            "selectedColor": "#3498db",
+            "list": [
+                  {
+                        "pagePath": "pages/index/index",
+                        "text": "首页",
+                        "iconPath": "/images/tabbar/home.png",
+                        "selectedIconPath": "/images/tabbar/home_on.png"
+                  },
+                  {
+                        "pagePath": "pages/publish/publish",
+                        "text": "发布",
+                        "iconPath": "/images/tabbar/publish.png",
+                        "selectedIconPath": "/images/tabbar/publish_on.png"
+                  },
+                  {
+                        "pagePath": "pages/my/my",
+                        "text": "我的",
+                        "iconPath": "/images/tabbar/my.png",
+                        "selectedIconPath": "/images/tabbar/my_on.png"
+                  }
+            ]
+      },
+      "usingComponents": {
+            "van-steps": "vant/steps/index",
+            "van-transition": "vant/transition/index",
+            "van-stepper": "vant/stepper/index",
+            "van-action-sheet": "vant/action-sheet/index",
+            "van-popup": "vant/popup/index",
+            "canvasdrawer": "/components/canvasdrawer/canvasdrawer",
+            "tips": "components/add_tips/index",
+            "van-dialog": "vant/dialog/index"
+      }
+}
